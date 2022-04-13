@@ -1,0 +1,346 @@
+#navbar{
+  background-color: CornflowerBlue;
+  overflow: hidden; 
+  width:100%;
+}
+
+#nav-container{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul{
+  list-style-type: none;
+  margin: 0; 
+  padding: 0; 
+  display: inline-block;
+  vertical-align: top;
+}
+
+#navbar ul li{
+  float: left;
+  font-family: 'Teko', sans-serif;
+  font-size: 1.6em;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 10px 20px;
+  color: NavajoWhite;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover{
+  text-decoration: underline;
+  background-color: DarkOrchid;
+}
+
+h1{
+  font-weight: 700;
+}
+
+h2{
+  font-weight: 650;
+}
+
+h3{
+  font-weight: 550;
+}
+
+strong{
+  font-weight: 550;
+}
+
+
+header{
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+
+#collegeclasses{
+  overflow: hidden;
+  width: 50%;
+}  
+
+#skillslist{
+  overflow:hidden;
+  width: 50%;
+  text-align: center;
+}
+
+#explist{
+  overflow: hidden;
+  width:50%;
+  left: 50%;
+  text-align: center;
+}
+
+#resumebody{
+  background: linear-gradient(90deg, blue, #000 20em, #fff 20px, #fff 40px);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Monaco, Monospace;
+  float:left;
+}
+
+#name{
+  margin: 0;
+  padding: 0;
+}
+
+#college ul{
+  list-style: none;
+  position:relative;
+  left: 23%;
+  text-align: center;
+}
+
+#college ul li a{
+  position:relative;
+  text-align: left;
+  text-decoration: none;
+}
+
+#main-content em{
+  background: lightyellow;
+}
+
+#summary p{
+  width: 25%;
+  height: 25%;
+  left: 38%;
+  position: relative;
+}
+
+#summary{
+  margin-bottom: 11em;
+  float:left;
+}
+
+#skills ul{
+  list-style: none;
+  position: relative;
+  left: 23%;
+  text-align: center;
+}
+
+#skills ul li{
+  text-align:center;
+  left:30%;
+}
+
+#skills ul li a{
+  position:relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+#experience{
+  left: 60%;
+}
+
+#experience ul li{
+  left: 30%;
+}
+	
+#experience ul{
+  list-style: none;
+  position:relative;
+  left: 25%;
+  text-align: center;
+}
+
+#experience ul li a{
+  position:relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer p{
+  background-color: plum;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#logo{
+  display: inline-block;
+  float:left;  
+  position: relative;
+  vertical-align: top;
+  text-align:center;
+  background-image: url("../media/soccerheaderbg.jpg");
+  background-size: 10%;
+  margin:0;
+  padding:0;
+  color: mediumTurquoise;
+  font-family:'Spectral', serif;
+  width: 100%;
+  height: 10%;
+}
+
+#logo h1{
+  margin:0;
+  padding:0;
+  position:relative;
+  float:left;
+  bottom:70%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#description{
+  width:100%;
+  text-align:center;
+  position: relative;
+  margin: 0;
+  padding-top: 5em;
+  padding-bottom: 13.5em;
+  display: inline-block;
+  font-size: 1.7em;	
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#logo-container{
+  margin:0;
+  padding:0;
+  position:relative;
+  left:40%;
+  float:left;
+  font-size: 2em;
+  font-weight: 700;
+  top:65%;	
+}
+
+#achiv{
+  color:mediumTurquoise;
+  font-family: Gerogia, serif;
+  font-size: 1.4em;
+  text-align:center;
+  font-weight: 500;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#soccerbody{
+  background-image: url("../media/soccerbg.jpg");
+  background-size: 100%;
+}
+ 
+#history{
+ color: mediumTurquoise;
+ text-align:center;
+}
+
+.img-horizontal{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:white;
+  padding-bottom: 10em;
+}
+
+.img-horizontal img{
+  margin-right: .1em;
+  margin-left: .1em;
+}
+
+.collumn{
+  flex: 1 0 33.3%;
+}
+
+ #goal-vid{
+  width: 50%;  
+  position:relative;
+  left:25%;
+ }
+ 
+ #achiv p:first-of-type{
+  font-size: 2em;
+  color:mediumTurquoise;
+  font-weight: 700;
+ }
+ 
+ #greatp{
+  font-weight:600;
+  font-size:2em;
+  text-align:center;
+  margin:0;
+  padding-bottom:0;
+  padding-top:5em;
+  color:mediumTurquoise;
+ }
+ 
+ #europe-title{
+  text-align:center;
+  margin:0;
+  padding-bottom: 2em;
+  width:100%;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 3em;
+ }
+ 
+ #europe-body{
+  background-color:coral;
+ }
+ 
+ #europe-body p{
+  text-align: center;
+  position: relative;
+  margin:0;
+  padding-top:10em;
+  margin: 5em 0;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+ 
+ #fountain{
+  width: 22em;
+  height: 14.5em;
+ }
+ 
+ #piccadilly{
+  width: 22em;
+  height: 15em;
+ }
+ 
+ #europe-body p:first-of-type{
+  background-image: url("../media/franceflag.png");
+  color:black;
+  background-repeat: no-repeat;
+  width:100%;
+  background-size: 100% 100%;	 
+}
+ 
+ #europe-body p:nth-of-type(2){
+  margin:0;
+  padding:0;	
+}
+ 
+ #europe-body p:nth-of-type(3){
+  background-image: url("../media/spainflag.jpg");
+  color:black;
+  background-repeat: no-repeat;
+  width:100%;
+  background-size: 100% 100%; 
+}
+ 
+ #europe-body p:nth-of-type(4){
+  background-image: url("../media/italyflag.jpg");
+  color:black; 
+  background-repeat: no-repeat;
+  width:100%;
+  background-size: 100% 100%;
+}
+ 
+ #europe-body p:nth-of-type(5){
+  background-image: url("../media/ukflag.png");
+  color:black;
+  background-repeat: no-repeat;
+  width:100%;
+  background-size: 100% 100%; 
+}
