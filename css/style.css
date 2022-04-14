@@ -370,3 +370,7 @@ footer p{
 .collumnslider {
   display: none;
 }
+
+.slidercont{
+	text-align: center;
+}

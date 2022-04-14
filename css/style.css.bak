@@ -366,3 +366,12 @@ footer p{
 #mapbody{
   text-align: center;
 }
+
+.collumnslider {
+  display: none;
+  
+}
+
+.slidercont{
+	text-align: center;
+}
