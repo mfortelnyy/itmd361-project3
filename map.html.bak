@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/mapjs.js"></script>
   </head>
-  <body>
+  <body id="mapbody">
     <nav id="navbar">
 	  <div id="nav-container">
 	    <ul>
