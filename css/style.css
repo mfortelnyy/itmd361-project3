@@ -358,7 +358,7 @@ footer p{
   width: 800px;
   overflow: hidden;
   background-color: blue;
-  margin: 0, auto;
+  margin: 0;
   text-align: center;
   display:inline-block;
 }
