@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/mapjs.js"></script>
+  </head>
+  <body id="mapbody">
+    <nav id="navbar">
+	  <div id="nav-container">
+	    <ul>
+	      <li><a href ="index.html">Resume</a></li>
+		  <li><a href ="soccer.html">Soccer</a></li>
+		  <li><a href ="europe.html">Europe</a></li>
+		  <li><a href ="map.html">Map</a></li>
+		</ul>
+	  </div>
+	</nav>
+	<h1 id="name">IIT Google Map</h1>
+	<div id="wrap">
+		<div id="map"></div>
+	</div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAP131gdRew5WDRe5UkjaYuDRsZJByyAA&callback=initMap">
+</script>
+  </body>
+</html>

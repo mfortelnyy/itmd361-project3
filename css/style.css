@@ -344,3 +344,29 @@ footer p{
   width:100%;
   background-size: 100% 100%; 
 }
+
+
+#map {
+  height: 500px;
+  width: 700px;
+  margin-top: 50px;
+  display:inline-block;   
+}
+
+#wrap {
+  height: 600px;
+  width: 800px;
+  overflow: hidden;
+  background-color: blue;
+  margin: 0, auto;
+  text-align: center;
+  display:inline-block;
+}
+
+#mapbody{
+  text-align: center;
+}
+
+.collumnslider {
+  display: none;
+}
