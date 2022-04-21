@@ -54,6 +54,15 @@ strong{
   font-weight: 550;
 }
 
+#resumebody{
+  background: linear-gradient(90deg, blue, #000 20em, #fff 20px, #fff 40px);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: Monaco, Monospace;
+  float:left;
+}
 
 header{
   margin: 0;
@@ -79,15 +88,6 @@ header{
   text-align: center;
 }
 
-#resumebody{
-  background: linear-gradient(90deg, blue, #000 20em, #fff 20px, #fff 40px);
-  background-repeat: no-repeat;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  font-family: Monaco, Monospace;
-  float:left;
-}
 
 #name{
   margin: 0;
@@ -141,9 +141,6 @@ header{
   text-decoration: none;
 }
 
-#experience{
-  left: 60%;
-}
 
 #experience ul li{
   left: 30%;
@@ -374,3 +371,36 @@ footer p{
 .slidercont{
 	text-align: center;
 }
+
+//mobile friendly images layout
+@media (max-width: 760px){
+	
+  .img-horizontal{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:white;
+  padding-bottom: 10em;
+}
+
+.img-horizontal img{
+  margin-right: .1em;
+  margin-left: .1em;
+}
+
+.collumn{
+  flex: 1 0 50%;
+}
+#resumebody{
+  background: none;
+}
+ #experience{
+  text-align: center;
+ }
+
+}
+
+
+
+
+	
